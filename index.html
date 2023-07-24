@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekaralu - Web</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" href="./assets/icons/logo.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/icons/logo.svg" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>About Us</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>FAQ's</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Blogs</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><b>Contact Us</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><button class="addListingBtn">Add A Listing</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><button class="loginBtn">Login</button></a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- HEADING -->
+        <b class="heading">
+            "Let <span class="logotext">ekaralu</span> Be Your Guide in Finding the Land of Your Dreams
+            Your Search Ends Here."
+        </b>
+
+        <!-- SEARCH -->
+        <div class="search d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="./assets/icons/search.svg" />
+                <input type="search" placeholder="Enter Village, Mandal, City" />
+            </div>
+
+            <div class="searchBtns">
+                <button class="addListingBtn">Search Land</button>
+                <button class="searchOnMap">Search On Map</button>
+            </div>
+        </div><br><br><br><br>
+
+        <!-- SECTION 1 -->
+        <div class="sectionOne d-flex flex-wrap align-items-center justify-content-evenly">
+            <div>
+                <img src="./assets/images/crown.png" /><br>
+                <b>500+</b><br>
+                <p>Acres Buying, and<br>selling experience</p>
+            </div>
+            <div>
+                <img src="./assets/images/farmer.png" /><br>
+                <b>50+</b><br>
+                <p>Experts farmer<br>families</p>
+            </div>
+            <div>
+                <img src="./assets/images/consultant.png" /><br>
+                <b>5000+</b><br>
+                <p>Trusted Local<br>land consultants</p>
+            </div>
+            <div>
+                <img src="./assets/images/profileTick.png" /><br>
+                <b>2500+</b><br>
+                <p>Happy Customers</p>
+            </div>
+        </div><br><br><br><br>
+
+        <!-- SECTION 2 -->
+        <div class="sectionTwo">
+            <section>Top Cities</section>
+            <b class="headingTwo">
+                Experience the Ultimate Land Buying Journey with ekaralu - Where<br>
+                Every Plot Tells a Story.
+            </b><br>
+            <b>
+                We have analyzed over 10,000 properties using 33+ parameters specific to agricultural farmlands in
+                Telangana. This detailed analysis helps us and our clients make informed decisions, ensuring you get the
+                best value for your investment.
+            </b><br><br>
+
+            <div class="locations">
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/hyderabad.png" />
+                    <div class="locationData">
+                        <b>Hyderabad</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/warangal.png" />
+                    <div class="locationData">
+                        <b>Warangal</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/nizamabad.png" />
+                    <div class="locationData">
+                        <b>Nizamabad</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/adilabad.png" />
+                    <div class="locationData">
+                        <b>Adilabad</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/mahbubnagar.png" />
+                    <div class="locationData">
+                        <b>Mahbubnagar</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/medak.png" />
+                    <div class="locationData">
+                        <b>Medak</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/jagtial.png" />
+                    <div class="locationData">
+                        <b>Jagtial</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/bhuvanagiri.png" />
+                    <div class="locationData">
+                        <b>Bhuvanagiri</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/nalgonda.png" />
+                    <div class="locationData">
+                        <b>Nalgonda</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/karimnagar.png" />
+                    <div class="locationData">
+                        <b>Karimnagar</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/vikarabad.png" />
+                    <div class="locationData">
+                        <b>Vikarabad</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/zaheerabad.png" />
+                    <div class="locationData">
+                        <b>zaheerabad</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/shamshabad.png" />
+                    <div class="locationData">
+                        <b>Shamshabad</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/devarakonda.png" />
+                    <div class="locationData">
+                        <b>Devarakonda</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <img src="./assets/images/sangareddy.png" />
+                    <div class="locationData">
+                        <b>Sangareddy</b><br>
+                        <p>50+ Land</p>
+                    </div>
+                </div>
+                <div class="contain d-flex align-items-center">
+                    <button class="viewmore">View More <img src="./assets/icons/rightArrow.svg" /></button>
+                </div>
+            </div>
+
+        </div><br><br><br><br>
+
+        <!-- SECTION 3 -->
+        <div class="sectionThree d-flex align-items-center justify-content-between">
+            <div class="headingTwo">
+                "Invest in Your Legacy with <span class="logotext">ekaralu</span> Connecting You to the Perfect Land for
+                Your Vision."
+            </div>
+            <div class="registrationForm">
+                <form action="" method="POST">
+                    <br><input type="text" placeholder="Enter Your Name" required><br><br>
+                    <input type="number" placeholder="Mobile Number" onkeypress="if(this.value.length==10) return false;" required><br><br>
+                    <textarea cols="47" placeholder="Your Requirement" required></textarea>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center">
+                            <input type="checkbox" checked> Need Any help? Just send Hi
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="./assets/icons/whatsapp.svg" /> On whatsapp +91 75698 64604
+                        </div><br>
+                    </div><br>
+                    <button class="submitBtn">Submit</button>
+                </form>
+            </div>
+        </div><br><br>
+
+        <!-- SECTION 4 -->
+        <div cass="sectionFour">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="headingTwo">
+                    Features land's for you
+                </div>
+                <div><b>Load More</b></div>
+            </div><br>
+            <div class="featureGrid">
+                <div class="gridItem">
+                    <img src="./assets/images/featureImg1.png" />
+                    <div class="featureLabel">₹ 2.5 Cr</div>
+                    <br>
+                    <b>50 Acres</b>
+                    <p>Area, Location : zaheerabad</p>
+                    <button>
+                        More Details <img src="./assets/icons/rightArrowGreen.svg" />
+                    </button>
+                </div>
+                <div class="gridItem">
+                    <img src="./assets/images/featureImg2.png" />
+                    <div class="featureLabel">₹ 2.5 Cr</div>
+                    <br>
+                    <b>50 Acres</b>
+                    <p>Area, Location : zaheerabad</p>
+                    <button>
+                        More Details <img src="./assets/icons/rightArrowGreen.svg" />
+                    </button>
+                </div>
+                <div class="gridItem">
+                    <img src="./assets/images/featureImg3.png" />
+                    <div class="featureLabel">₹ 2.5 Cr</div>
+                    <br>
+                    <b>50 Acres</b>
+                    <p>Area, Location : zaheerabad</p>
+                    <button>
+                        More Details <img src="./assets/icons/rightArrowGreen.svg" />
+                    </button>
+                </div>
+                <div class="gridItem">
+                    <img src="./assets/images/featureImg4.png" />
+                    <div class="featureLabel">₹ 2.5 Cr</div>
+                    <br>
+                    <b>50 Acres</b>
+                    <p>Area, Location : zaheerabad</p>
+                    <button>
+                        More Details <img src="./assets/icons/rightArrowGreen.svg" />
+                    </button>
+                </div>
+                <div class="gridItem">
+                    <img src="./assets/images/featureImg5.png" />
+                    <div class="featureLabel">₹ 2.5 Cr</div>
+                    <br>
+                    <b>50 Acres</b>
+                    <p>Area, Location : zaheerabad</p>
+                    <button>
+                        More Details <img src="./assets/icons/rightArrowGreen.svg" />
+                    </button>
+                </div>
+                <div class="gridItem">
+                    <img src="./assets/images/featureImg6.png" />
+                    <div class="featureLabel">₹ 2.5 Cr</div>
+                    <br>
+                    <b>50 Acres</b>
+                    <p>Area, Location : zaheerabad</p>
+                    <button>
+                        More Details <img src="./assets/icons/rightArrowGreen.svg" />
+                    </button>
+                </div>
+            </div>
+        </div><br><br><br><br>
+
+        <!-- SECTION 5 -->
+        <div class="sectionFive">
+            <div class="starterTag"><b>Blogs</b></div>
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="headingTwo">
+                    News & Articles
+                </div>
+                <div><b>View All</b></div>
+            </div><br>
+
+            <div class="newsContainer d-flex flex-wrap align-items-center justify-content-between">
+                <div>
+                    <img src="./assets/images/news1.png" />
+                    <br><br><b>Telangana hikes market value of properties</b>
+                    <p>Jan 04, 2023</p>
+                </div>
+                <div>
+                    <img src="./assets/images/news2.png" />
+                    <br><br><b>Telangana hikes market value of properties</b>
+                    <p>Jan 04, 2023</p>
+                </div>
+                <div>
+                    <img src="./assets/images/news3.png" />
+                    <br><br><b>Telangana hikes market value of properties</b>
+                    <p>Jan 04, 2023</p>
+                </div>
+            </div>
+
+        </div><br><br><br><br>
+
+        <!-- SECTION 6 -->
+        <div class="sectionSix">
+            <div class="headingTwo">
+                Frequently Ask Questions
+            </div>
+
+            <div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout. The point of using Lorem
+                                Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                                'Content here, content here', making it look like readable English.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout. The point of using Lorem
+                                Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                                'Content here, content here', making it look like readable English.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout. The point of using Lorem
+                                Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                                'Content here, content here', making it look like readable English.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout. The point of using Lorem
+                                Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                                'Content here, content here', making it look like readable English.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a page when looking at its layout?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">It is a long established fact that a reader will be distracted
+                                by the readable content of a page when looking at its layout. The point of using Lorem
+                                Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
+                                'Content here, content here', making it look like readable English.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+
+        <!-- SECTION 7 -->
+        <div class="sectionSeven">
+            <br><br><br><b>Testimonials</b>
+            <div class="headingTwo">
+                Lovely Things People Say About Us
+            </div><br><br>
+
+            <div class="d-flex align-items-center justify-content-evenly">
+                <img class="arrow" src="./assets/icons/lefty.png" />
+
+                <div class="carding">
+                    <img src="./assets/images/client1.png" /><br><br>
+                    <b>Client Name</b><br>
+                    <img class="stars" src="./assets/icons/stars.svg" /><br>
+                    <p>
+                        “It is a long established fact that a reader will be distracted“
+                    </p>
+                </div>&nbsp;
+                <div class="carding">
+                    <img src="./assets/images/client2.png" /><br><br>
+                    <b>Client Name</b><br>
+                    <img class="stars" src="./assets/icons/stars.svg" /><br>
+                    <p>
+                        “It is a long established fact that a reader will be distracted“
+                    </p>
+                </div>&nbsp;
+                <div class="carding">
+                    <img src="./assets/images/client3.png" /><br><br>
+                    <b>Client Name</b><br>
+                    <img class="stars" src="./assets/icons/stars.svg" /><br>
+                    <p>
+                        “It is a long established fact that a reader will be distracted“
+                    </p>
+                </div>
+
+                <img class="arrow" src="./assets/icons/righty.png" />
+            </div>
+
+        </div><br><br><br><br>
+
+        <!-- SECTION 8 -->
+        <div class="sectionEight">
+            <div class="headingEight">
+                Best Lands For You
+            </div><br><br>
+
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th scope="col">Hyderabad</th>
+                        <th scope="col">Nizamabad</th>
+                        <th scope="col">Warangal</th>
+                        <th scope="col">Karimnagar</th>
+                        <th scope="col">Vikarabad</th>
+                        <th scope="col">Mahbubnagar</th>
+                        <th scope="col">Adilabad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                    </tr>
+                    <tr>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                    </tr>
+                    <tr>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                    </tr>
+                    <tr>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                    </tr>
+                    <tr>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                    </tr>
+                    <tr>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                        <td>Mandal Name</td>
+                    </tr>
+                    <tr>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                    </tr>
+                    <tr>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                        <td>Started from 15L P/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-center text-white" style="background: rgba(19, 19, 19, 1);">
+
+        <div class="d-flex align-items-center justify-content-between p-5">
+            <div>
+                <img width="200px" height="100px" src="./assets/images/logo.png" />
+            </div>
+            <div>
+                Ready To Get Start?
+                &nbsp;&nbsp;<button class="getStarted">Get Start</button>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footerDetails d-flex align-items-center justify-content-between">
+            <div class="footerInner">
+                <b>Contact Us</b><br><br>
+                <img src="./assets/icons/call.svg" />
+                +91 00000 00000<br><br>
+                <img src="./assets/icons/sms.svg" />
+                Ekaralu@gmail.com<br><br>
+                <img src="./assets/icons/routing.svg" />
+                Hyderabad - 500 008<br><br>
+            </div>
+
+            <div class="footerInner">
+                <b>Explore</b><br><br>
+                <b>Home</b><br>
+                <b>About Us</b><br>
+                <b>Our Journey</b><br>
+                <b>Add A Listing</b><br>
+                <b>Contact Us</b><br>
+                <b>FAQ's</b>
+            </div>
+
+            <div>
+                <b>Need Any help?</b><br><br>
+                <a target="_blank" href="https://web.whatsapp.com/send/?phone=7569864604&text&type=phone_number&app_absent=0">
+                    <button class="addWhatsAppBtn">
+                    <img width="20px" height="20px" src="./assets/icons/whatsapp.png" />
+                    On WhatsApp +91 75698 64604
+                </button></a><br><br><br>
+
+                <div class="follow">
+                    Follow Us On<br><br>
+                    <a href="https://www.instagram.com/"><img src="./assets/icons/instagram.svg" /></a>&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/"><img src="./assets/icons/facebook.svg" /></a>&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/"><img src="./assets/icons/youtube.svg" /></a>&nbsp;&nbsp;
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+        <div class="d-flex align-items-center justify-content-between p-5">
+            <div>
+                &copy; Ekaralu
+            </div>
+            <div>
+                Powered By Dezen Tech
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

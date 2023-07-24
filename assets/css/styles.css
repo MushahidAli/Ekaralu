@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    text-align: center;
+    padding: 5%;
+}
+
+button {
+    border-radius: 5px !important;
+    border: none;
+    padding: 5px;
+}
+
+input,
+textarea {
+    background-color: rgba(248, 248, 252, 1);
+    border: none;
+    outline: none;
+    font-family: Poppins !important;
+    color: black !important;
+    padding: 10px;
+}
+
+input::placeholder {
+    font-size: 13px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+img {
+    cursor: pointer;
+}
+
+.addListingBtn {
+    padding: 12px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(119, 190, 67, 1), rgba(78, 141, 64, 1));
+}
+
+.submitBtn {
+    padding: 12px;
+    width: 50%;
+    color: white;
+    background-image: linear-gradient(to right, rgba(119, 190, 67, 1), rgba(78, 141, 64, 1));
+}
+
+.loginBtn {
+    padding: 12px;
+    box-shadow: 0px 3px rgba(162, 187, 145, 0.3);
+    color: rgba(119, 190, 67, 1);
+}
+
+.searchOnMap {
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    font-weight: 800 !important;
+    line-height: 51.2px;
+    font-size: 25px;
+}
+
+.logotext {
+    color: rgba(126, 193, 76, 1);
+}
+
+.search {
+    background-color: rgba(248, 248, 252, 1);
+    border: 0.5px solid rgba(51, 51, 51, 0.2);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.searchBtns button {
+    margin: 5px;
+    padding: 12px;
+}
+
+.sectionOne img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.sectionOne p {
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.sectionTwo {
+    text-align: left;
+}
+
+.sectionThree {
+    text-align: left;
+    overflow: auto;
+}
+
+.sectionTwo section {
+    text-align: left;
+    font-weight: bolder;
+}
+
+.headingTwo {
+    font-weight: 800 !important;
+    line-height: 51.2px;
+    font-size: 35px;
+}
+
+.locations {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    overflow: auto
+}
+
+.contain {
+    background-color: rgba(248, 248, 252, 1);
+}
+
+.locationData {
+    padding: 10px;
+}
+
+.viewmore {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.registrationForm {
+    width: auto;
+    padding: 20px;
+}
+
+.registrationForm form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    padding: 5px;
+}
+
+.registrationForm input {
+    padding: 10px;
+    width: 90%;
+}
+
+.featureGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    text-align: left;
+    overflow: auto;
+}
+
+.gridItem {
+    position: relative;
+}
+
+.gridItem .featureLabel {
+    color: white;
+    background-color: rgba(255, 102, 102, 1);
+    display: inline;
+    padding: 5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+    position: absolute;
+    left: 0px;
+    top: 10px;
+
+}
+
+.gridItem img {
+    width: auto;
+    height: auto;
+}
+
+.gridItem button {
+    color: rgba(119, 190, 67, 1);
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gridItem button img {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.newsContainer div {
+    text-align: left;
+}
+
+.starterTag {
+    text-align: left;
+}
+
+.sectionSeven {
+    background-color: rgba(248, 248, 252, 1);
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.carding {
+    background-color: white;
+    padding: 10px;
+}
+
+.sectionSeven .carding img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.sectionSeven .carding .stars {
+    width: 40%;
+}
+
+.sectionEight {
+    overflow: auto;
+}
+
+.sectionEight .headingEight {
+    text-align: left;
+    font-weight: 800 !important;
+    line-height: 51.2px;
+    font-size: 35px;
+}
+
+.getStarted {
+    color: white;
+    background-color: rgba(255, 102, 102, 1);
+    padding: 10px;
+}
+
+.footerDetails {
+    padding: 20px;
+}
+
+.addWhatsAppBtn {
+    color: white;
+    background-image: linear-gradient(to right, rgba(78, 141, 64, 1), rgba(119, 190, 67, 1));
+    padding: 20px;
+}
+
+.footerInner {
+    text-align: left;
+}
+
+.follow img {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 710px) {
+    .sectionThree {
+        flex-wrap: wrap;
+        text-align: left;
+        overflow: auto;
+    }
+
+    table {
+        overflow: auto;
+    }
+}
